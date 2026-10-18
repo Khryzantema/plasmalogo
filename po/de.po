@@ -1,0 +1,219 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: org.exemplo.menumaca\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: package/contents/config/config.qml:12
+msgid "General"
+msgstr "Allgemein"
+
+#: package/contents/ui/AboutContent.qml:38 package/contents/ui/AboutContent.qml:80 package/contents/ui/FullRepresentation.qml:95
+msgid "About This Computer"
+msgstr "Über diesen Computer"
+
+#: package/contents/ui/AboutContent.qml:45
+msgid "Close"
+msgstr "Schließen"
+
+#: package/contents/ui/AboutContent.qml:140
+msgid "More Information…"
+msgstr "Weitere Informationen …"
+
+#: package/contents/ui/ConfigGeneral.qml:23
+msgid "Panel icon:"
+msgstr "Symbol in der Kontrollleiste:"
+
+#: package/contents/ui/ConfigGeneral.qml:28
+msgid "Choose Icon…"
+msgstr "Symbol auswählen …"
+
+#: package/contents/ui/ConfigGeneral.qml:33
+msgid "Default"
+msgstr "Standard"
+
+#: package/contents/ui/ConfigGeneral.qml:46
+msgid "Icon size:"
+msgstr "Symbolgröße:"
+
+#: package/contents/ui/ConfigGeneral.qml:67
+msgid "%1 px"
+msgstr "%1 px"
+
+#: package/contents/ui/ConfigGeneral.qml:74
+msgid "Unavailable actions:"
+msgstr "Nicht verfügbare Aktionen:"
+
+#: package/contents/ui/ConfigGeneral.qml:75
+msgid "Hide them instead of showing them disabled"
+msgstr "Ausblenden statt deaktiviert anzeigen"
+
+#: package/contents/ui/ConfigGeneral.qml:82
+msgid "Items such as Hibernate or Sleep only appear if the computer actually supports the action."
+msgstr "Einträge wie Ruhezustand oder Standby erscheinen nur, wenn der Computer die Aktion tatsächlich unterstützt."
+
+#: package/contents/ui/FullRepresentation.qml:104
+msgid "System Settings…"
+msgstr "Systemeinstellungen …"
+
+#: package/contents/ui/FullRepresentation.qml:110
+msgid "App Store…"
+msgstr "App-Store …"
+
+#: package/contents/ui/FullRepresentation.qml:119
+msgid "Force Quit…"
+msgstr "Sofort beenden …"
+
+#: package/contents/ui/FullRepresentation.qml:130
+msgid "Sleep"
+msgstr "Standby"
+
+#: package/contents/ui/FullRepresentation.qml:139
+msgid "Hibernate"
+msgstr "Ruhezustand"
+
+#: package/contents/ui/FullRepresentation.qml:151
+msgid "Restart…"
+msgstr "Neustart …"
+
+#: package/contents/ui/FullRepresentation.qml:153
+msgid "Restart the computer?"
+msgstr "Computer neu starten?"
+
+#: package/contents/ui/FullRepresentation.qml:153 package/contents/ui/FullRepresentation.qml:163 package/contents/ui/FullRepresentation.qml:179
+msgid "All open applications will be closed."
+msgstr "Alle geöffneten Anwendungen werden geschlossen."
+
+#: package/contents/ui/FullRepresentation.qml:154
+msgid "Restart"
+msgstr "Neu starten"
+
+#: package/contents/ui/FullRepresentation.qml:161
+msgid "Shut Down…"
+msgstr "Ausschalten …"
+
+#: package/contents/ui/FullRepresentation.qml:163
+msgid "Shut down the computer?"
+msgstr "Computer ausschalten?"
+
+#: package/contents/ui/FullRepresentation.qml:164
+msgid "Shut Down"
+msgstr "Ausschalten"
+
+#: package/contents/ui/FullRepresentation.qml:172
+msgid "Lock Screen"
+msgstr "Bildschirm sperren"
+
+#: package/contents/ui/FullRepresentation.qml:178
+msgid "Log Out…"
+msgstr "Abmelden …"
+
+#: package/contents/ui/FullRepresentation.qml:179
+msgid "Log out?"
+msgstr "Abmelden?"
+
+#: package/contents/ui/FullRepresentation.qml:180
+msgid "Log Out"
+msgstr "Abmelden"
+
+#: package/contents/ui/components/ConfirmOverlay.qml:130
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: package/contents/ui/main.qml:52
+msgid "Could not perform this action (the Plasma session API is unavailable or failed)."
+msgstr "Diese Aktion konnte nicht ausgeführt werden (die Plasma-Sitzungs-API ist nicht verfügbar oder fehlgeschlagen)."
+
+#: package/contents/ui/main.qml:79
+msgid "Unavailable on this computer"
+msgstr "Auf diesem Computer nicht verfügbar"
+
+#: package/contents/ui/main.qml:182
+msgid "%1 day"
+msgid_plural "%1 days"
+msgstr[0] "%1 Tag"
+msgstr[1] "%1 Tage"
+
+#: package/contents/ui/main.qml:183
+msgid "%1 hour"
+msgid_plural "%1 hours"
+msgstr[0] "%1 Stunde"
+msgstr[1] "%1 Stunden"
+
+#: package/contents/ui/main.qml:184
+msgid "%1 minute"
+msgid_plural "%1 minutes"
+msgstr[0] "%1 Minute"
+msgstr[1] "%1 Minuten"
+
+#: package/contents/ui/main.qml:185
+msgid "less than a minute"
+msgstr "weniger als eine Minute"
+
+#: package/contents/ui/main.qml:192
+msgid "System"
+msgstr "System"
+
+#: package/contents/ui/main.qml:193
+msgid "Plasma"
+msgstr "Plasma"
+
+#: package/contents/ui/main.qml:194
+msgid "Kernel"
+msgstr "Kernel"
+
+#: package/contents/ui/main.qml:200
+msgid "Model"
+msgstr "Modell"
+
+#: package/contents/ui/main.qml:200
+msgid "Unidentified"
+msgstr "Nicht erkannt"
+
+#: package/contents/ui/main.qml:205
+msgid "%1 core"
+msgid_plural "%1 cores"
+msgstr[0] "%1 Kern"
+msgstr[1] "%1 Kerne"
+
+#: package/contents/ui/main.qml:206
+msgid "%1 thread"
+msgid_plural "%1 threads"
+msgstr[0] "%1 Thread"
+msgstr[1] "%1 Threads"
+
+#: package/contents/ui/main.qml:207
+msgid "Processor"
+msgstr "Prozessor"
+
+#: package/contents/ui/main.qml:209
+msgid "Memory"
+msgstr "Arbeitsspeicher"
+
+#: package/contents/ui/main.qml:209
+msgid "%1 GB"
+msgstr "%1 GB"
+
+#: package/contents/ui/main.qml:210
+msgid "Graphics"
+msgstr "Grafik"
+
+#: package/contents/ui/main.qml:211
+msgid "Storage"
+msgstr "Speicher"
+
+#: package/contents/ui/main.qml:211
+msgid "%1 used of %2"
+msgstr "%1 von %2 belegt"
+
+#: package/contents/ui/main.qml:212
+msgid "Computer Name"
+msgstr "Computername"
+
+#: package/contents/ui/main.qml:213
+msgid "Uptime"
+msgstr "Betriebszeit"
+

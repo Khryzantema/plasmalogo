@@ -1,0 +1,214 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: org.exemplo.menumaca\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: package/contents/config/config.qml:12
+msgid "General"
+msgstr "一般"
+
+#: package/contents/ui/AboutContent.qml:38 package/contents/ui/AboutContent.qml:80 package/contents/ui/FullRepresentation.qml:95
+msgid "About This Computer"
+msgstr "關於本機"
+
+#: package/contents/ui/AboutContent.qml:45
+msgid "Close"
+msgstr "關閉"
+
+#: package/contents/ui/AboutContent.qml:140
+msgid "More Information…"
+msgstr "更多資訊…"
+
+#: package/contents/ui/ConfigGeneral.qml:23
+msgid "Panel icon:"
+msgstr "面板圖示："
+
+#: package/contents/ui/ConfigGeneral.qml:28
+msgid "Choose Icon…"
+msgstr "選擇圖示…"
+
+#: package/contents/ui/ConfigGeneral.qml:33
+msgid "Default"
+msgstr "預設值"
+
+#: package/contents/ui/ConfigGeneral.qml:46
+msgid "Icon size:"
+msgstr "圖示大小："
+
+#: package/contents/ui/ConfigGeneral.qml:67
+msgid "%1 px"
+msgstr "%1 像素"
+
+#: package/contents/ui/ConfigGeneral.qml:74
+msgid "Unavailable actions:"
+msgstr "無法使用的動作："
+
+#: package/contents/ui/ConfigGeneral.qml:75
+msgid "Hide them instead of showing them disabled"
+msgstr "隱藏而非顯示為停用"
+
+#: package/contents/ui/ConfigGeneral.qml:82
+msgid "Items such as Hibernate or Sleep only appear if the computer actually supports the action."
+msgstr "只有在電腦確實支援時，才會顯示「休眠」或「睡眠」等項目。"
+
+#: package/contents/ui/FullRepresentation.qml:104
+msgid "System Settings…"
+msgstr "系統設定…"
+
+#: package/contents/ui/FullRepresentation.qml:110
+msgid "App Store…"
+msgstr "應用程式商店…"
+
+#: package/contents/ui/FullRepresentation.qml:119
+msgid "Force Quit…"
+msgstr "強制結束…"
+
+#: package/contents/ui/FullRepresentation.qml:130
+msgid "Sleep"
+msgstr "睡眠"
+
+#: package/contents/ui/FullRepresentation.qml:139
+msgid "Hibernate"
+msgstr "休眠"
+
+#: package/contents/ui/FullRepresentation.qml:151
+msgid "Restart…"
+msgstr "重新開機…"
+
+#: package/contents/ui/FullRepresentation.qml:153
+msgid "Restart the computer?"
+msgstr "要重新開機嗎？"
+
+#: package/contents/ui/FullRepresentation.qml:153 package/contents/ui/FullRepresentation.qml:163 package/contents/ui/FullRepresentation.qml:179
+msgid "All open applications will be closed."
+msgstr "所有開啟的應用程式都將關閉。"
+
+#: package/contents/ui/FullRepresentation.qml:154
+msgid "Restart"
+msgstr "重新開機"
+
+#: package/contents/ui/FullRepresentation.qml:161
+msgid "Shut Down…"
+msgstr "關機…"
+
+#: package/contents/ui/FullRepresentation.qml:163
+msgid "Shut down the computer?"
+msgstr "要將電腦關機嗎？"
+
+#: package/contents/ui/FullRepresentation.qml:164
+msgid "Shut Down"
+msgstr "關機"
+
+#: package/contents/ui/FullRepresentation.qml:172
+msgid "Lock Screen"
+msgstr "鎖定螢幕"
+
+#: package/contents/ui/FullRepresentation.qml:178
+msgid "Log Out…"
+msgstr "登出…"
+
+#: package/contents/ui/FullRepresentation.qml:179
+msgid "Log out?"
+msgstr "要登出嗎？"
+
+#: package/contents/ui/FullRepresentation.qml:180
+msgid "Log Out"
+msgstr "登出"
+
+#: package/contents/ui/components/ConfirmOverlay.qml:130
+msgid "Cancel"
+msgstr "取消"
+
+#: package/contents/ui/main.qml:52
+msgid "Could not perform this action (the Plasma session API is unavailable or failed)."
+msgstr "無法執行此動作（Plasma 工作階段 API 無法使用或發生錯誤）。"
+
+#: package/contents/ui/main.qml:79
+msgid "Unavailable on this computer"
+msgstr "此電腦無法使用"
+
+#: package/contents/ui/main.qml:182
+msgid "%1 day"
+msgid_plural "%1 days"
+msgstr[0] "%1 天"
+
+#: package/contents/ui/main.qml:183
+msgid "%1 hour"
+msgid_plural "%1 hours"
+msgstr[0] "%1 小時"
+
+#: package/contents/ui/main.qml:184
+msgid "%1 minute"
+msgid_plural "%1 minutes"
+msgstr[0] "%1 分鐘"
+
+#: package/contents/ui/main.qml:185
+msgid "less than a minute"
+msgstr "不到一分鐘"
+
+#: package/contents/ui/main.qml:192
+msgid "System"
+msgstr "系統"
+
+#: package/contents/ui/main.qml:193
+msgid "Plasma"
+msgstr "Plasma"
+
+#: package/contents/ui/main.qml:194
+msgid "Kernel"
+msgstr "核心"
+
+#: package/contents/ui/main.qml:200
+msgid "Model"
+msgstr "型號"
+
+#: package/contents/ui/main.qml:200
+msgid "Unidentified"
+msgstr "無法辨識"
+
+#: package/contents/ui/main.qml:205
+msgid "%1 core"
+msgid_plural "%1 cores"
+msgstr[0] "%1 核心"
+
+#: package/contents/ui/main.qml:206
+msgid "%1 thread"
+msgid_plural "%1 threads"
+msgstr[0] "%1 執行緒"
+
+#: package/contents/ui/main.qml:207
+msgid "Processor"
+msgstr "處理器"
+
+#: package/contents/ui/main.qml:209
+msgid "Memory"
+msgstr "記憶體"
+
+#: package/contents/ui/main.qml:209
+msgid "%1 GB"
+msgstr "%1 GB"
+
+#: package/contents/ui/main.qml:210
+msgid "Graphics"
+msgstr "顯示卡"
+
+#: package/contents/ui/main.qml:211
+msgid "Storage"
+msgstr "儲存空間"
+
+#: package/contents/ui/main.qml:211
+msgid "%1 used of %2"
+msgstr "已使用 %1，共 %2"
+
+#: package/contents/ui/main.qml:212
+msgid "Computer Name"
+msgstr "電腦名稱"
+
+#: package/contents/ui/main.qml:213
+msgid "Uptime"
+msgstr "運作時間"
+

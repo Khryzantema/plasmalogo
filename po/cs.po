@@ -1,0 +1,224 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: org.exemplo.menumaca\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+#: package/contents/config/config.qml:12
+msgid "General"
+msgstr "Obecné"
+
+#: package/contents/ui/AboutContent.qml:38 package/contents/ui/AboutContent.qml:80 package/contents/ui/FullRepresentation.qml:95
+msgid "About This Computer"
+msgstr "O tomto počítači"
+
+#: package/contents/ui/AboutContent.qml:45
+msgid "Close"
+msgstr "Zavřít"
+
+#: package/contents/ui/AboutContent.qml:140
+msgid "More Information…"
+msgstr "Další informace…"
+
+#: package/contents/ui/ConfigGeneral.qml:23
+msgid "Panel icon:"
+msgstr "Ikona na panelu:"
+
+#: package/contents/ui/ConfigGeneral.qml:28
+msgid "Choose Icon…"
+msgstr "Vybrat ikonu…"
+
+#: package/contents/ui/ConfigGeneral.qml:33
+msgid "Default"
+msgstr "Výchozí"
+
+#: package/contents/ui/ConfigGeneral.qml:46
+msgid "Icon size:"
+msgstr "Velikost ikony:"
+
+#: package/contents/ui/ConfigGeneral.qml:67
+msgid "%1 px"
+msgstr "%1 px"
+
+#: package/contents/ui/ConfigGeneral.qml:74
+msgid "Unavailable actions:"
+msgstr "Nedostupné akce:"
+
+#: package/contents/ui/ConfigGeneral.qml:75
+msgid "Hide them instead of showing them disabled"
+msgstr "Skrýt místo zobrazení jako zakázané"
+
+#: package/contents/ui/ConfigGeneral.qml:82
+msgid "Items such as Hibernate or Sleep only appear if the computer actually supports the action."
+msgstr "Položky jako Hibernace nebo Uspat se zobrazí, jen pokud počítač akci opravdu podporuje."
+
+#: package/contents/ui/FullRepresentation.qml:104
+msgid "System Settings…"
+msgstr "Nastavení systému…"
+
+#: package/contents/ui/FullRepresentation.qml:110
+msgid "App Store…"
+msgstr "Obchod s aplikacemi…"
+
+#: package/contents/ui/FullRepresentation.qml:119
+msgid "Force Quit…"
+msgstr "Vynutit ukončení…"
+
+#: package/contents/ui/FullRepresentation.qml:130
+msgid "Sleep"
+msgstr "Uspat"
+
+#: package/contents/ui/FullRepresentation.qml:139
+msgid "Hibernate"
+msgstr "Hibernovat"
+
+#: package/contents/ui/FullRepresentation.qml:151
+msgid "Restart…"
+msgstr "Restartovat…"
+
+#: package/contents/ui/FullRepresentation.qml:153
+msgid "Restart the computer?"
+msgstr "Restartovat počítač?"
+
+#: package/contents/ui/FullRepresentation.qml:153 package/contents/ui/FullRepresentation.qml:163 package/contents/ui/FullRepresentation.qml:179
+msgid "All open applications will be closed."
+msgstr "Všechny otevřené aplikace budou zavřeny."
+
+#: package/contents/ui/FullRepresentation.qml:154
+msgid "Restart"
+msgstr "Restartovat"
+
+#: package/contents/ui/FullRepresentation.qml:161
+msgid "Shut Down…"
+msgstr "Vypnout…"
+
+#: package/contents/ui/FullRepresentation.qml:163
+msgid "Shut down the computer?"
+msgstr "Vypnout počítač?"
+
+#: package/contents/ui/FullRepresentation.qml:164
+msgid "Shut Down"
+msgstr "Vypnout"
+
+#: package/contents/ui/FullRepresentation.qml:172
+msgid "Lock Screen"
+msgstr "Zamknout obrazovku"
+
+#: package/contents/ui/FullRepresentation.qml:178
+msgid "Log Out…"
+msgstr "Odhlásit…"
+
+#: package/contents/ui/FullRepresentation.qml:179
+msgid "Log out?"
+msgstr "Odhlásit se?"
+
+#: package/contents/ui/FullRepresentation.qml:180
+msgid "Log Out"
+msgstr "Odhlásit"
+
+#: package/contents/ui/components/ConfirmOverlay.qml:130
+msgid "Cancel"
+msgstr "Zrušit"
+
+#: package/contents/ui/main.qml:52
+msgid "Could not perform this action (the Plasma session API is unavailable or failed)."
+msgstr "Tuto akci nelze provést (API sezení Plasmy není dostupné nebo selhalo)."
+
+#: package/contents/ui/main.qml:79
+msgid "Unavailable on this computer"
+msgstr "Na tomto počítači nedostupné"
+
+#: package/contents/ui/main.qml:182
+msgid "%1 day"
+msgid_plural "%1 days"
+msgstr[0] "%1 den"
+msgstr[1] "%1 dny"
+msgstr[2] "%1 dní"
+
+#: package/contents/ui/main.qml:183
+msgid "%1 hour"
+msgid_plural "%1 hours"
+msgstr[0] "%1 hodina"
+msgstr[1] "%1 hodiny"
+msgstr[2] "%1 hodin"
+
+#: package/contents/ui/main.qml:184
+msgid "%1 minute"
+msgid_plural "%1 minutes"
+msgstr[0] "%1 minuta"
+msgstr[1] "%1 minuty"
+msgstr[2] "%1 minut"
+
+#: package/contents/ui/main.qml:185
+msgid "less than a minute"
+msgstr "méně než minuta"
+
+#: package/contents/ui/main.qml:192
+msgid "System"
+msgstr "Systém"
+
+#: package/contents/ui/main.qml:193
+msgid "Plasma"
+msgstr "Plasma"
+
+#: package/contents/ui/main.qml:194
+msgid "Kernel"
+msgstr "Jádro"
+
+#: package/contents/ui/main.qml:200
+msgid "Model"
+msgstr "Model"
+
+#: package/contents/ui/main.qml:200
+msgid "Unidentified"
+msgstr "Neidentifikováno"
+
+#: package/contents/ui/main.qml:205
+msgid "%1 core"
+msgid_plural "%1 cores"
+msgstr[0] "%1 jádro"
+msgstr[1] "%1 jádra"
+msgstr[2] "%1 jader"
+
+#: package/contents/ui/main.qml:206
+msgid "%1 thread"
+msgid_plural "%1 threads"
+msgstr[0] "%1 vlákno"
+msgstr[1] "%1 vlákna"
+msgstr[2] "%1 vláken"
+
+#: package/contents/ui/main.qml:207
+msgid "Processor"
+msgstr "Procesor"
+
+#: package/contents/ui/main.qml:209
+msgid "Memory"
+msgstr "Paměť"
+
+#: package/contents/ui/main.qml:209
+msgid "%1 GB"
+msgstr "%1 GB"
+
+#: package/contents/ui/main.qml:210
+msgid "Graphics"
+msgstr "Grafika"
+
+#: package/contents/ui/main.qml:211
+msgid "Storage"
+msgstr "Úložiště"
+
+#: package/contents/ui/main.qml:211
+msgid "%1 used of %2"
+msgstr "Využito %1 z %2"
+
+#: package/contents/ui/main.qml:212
+msgid "Computer Name"
+msgstr "Název počítače"
+
+#: package/contents/ui/main.qml:213
+msgid "Uptime"
+msgstr "Doba běhu"
+

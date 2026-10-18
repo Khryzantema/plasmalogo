@@ -1,0 +1,214 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: org.exemplo.menumaca\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: package/contents/config/config.qml:12
+msgid "General"
+msgstr "一般"
+
+#: package/contents/ui/AboutContent.qml:38 package/contents/ui/AboutContent.qml:80 package/contents/ui/FullRepresentation.qml:95
+msgid "About This Computer"
+msgstr "このコンピュータについて"
+
+#: package/contents/ui/AboutContent.qml:45
+msgid "Close"
+msgstr "閉じる"
+
+#: package/contents/ui/AboutContent.qml:140
+msgid "More Information…"
+msgstr "詳しい情報…"
+
+#: package/contents/ui/ConfigGeneral.qml:23
+msgid "Panel icon:"
+msgstr "パネルのアイコン:"
+
+#: package/contents/ui/ConfigGeneral.qml:28
+msgid "Choose Icon…"
+msgstr "アイコンを選択…"
+
+#: package/contents/ui/ConfigGeneral.qml:33
+msgid "Default"
+msgstr "デフォルト"
+
+#: package/contents/ui/ConfigGeneral.qml:46
+msgid "Icon size:"
+msgstr "アイコンのサイズ:"
+
+#: package/contents/ui/ConfigGeneral.qml:67
+msgid "%1 px"
+msgstr "%1 px"
+
+#: package/contents/ui/ConfigGeneral.qml:74
+msgid "Unavailable actions:"
+msgstr "利用できない操作:"
+
+#: package/contents/ui/ConfigGeneral.qml:75
+msgid "Hide them instead of showing them disabled"
+msgstr "無効表示ではなく非表示にする"
+
+#: package/contents/ui/ConfigGeneral.qml:82
+msgid "Items such as Hibernate or Sleep only appear if the computer actually supports the action."
+msgstr "「ハイバネート」や「スリープ」などの項目は、コンピュータが実際にその操作に対応している場合にのみ表示されます。"
+
+#: package/contents/ui/FullRepresentation.qml:104
+msgid "System Settings…"
+msgstr "システム設定…"
+
+#: package/contents/ui/FullRepresentation.qml:110
+msgid "App Store…"
+msgstr "アプリストア…"
+
+#: package/contents/ui/FullRepresentation.qml:119
+msgid "Force Quit…"
+msgstr "強制終了…"
+
+#: package/contents/ui/FullRepresentation.qml:130
+msgid "Sleep"
+msgstr "スリープ"
+
+#: package/contents/ui/FullRepresentation.qml:139
+msgid "Hibernate"
+msgstr "ハイバネート"
+
+#: package/contents/ui/FullRepresentation.qml:151
+msgid "Restart…"
+msgstr "再起動…"
+
+#: package/contents/ui/FullRepresentation.qml:153
+msgid "Restart the computer?"
+msgstr "コンピュータを再起動しますか？"
+
+#: package/contents/ui/FullRepresentation.qml:153 package/contents/ui/FullRepresentation.qml:163 package/contents/ui/FullRepresentation.qml:179
+msgid "All open applications will be closed."
+msgstr "開いているアプリケーションはすべて閉じられます。"
+
+#: package/contents/ui/FullRepresentation.qml:154
+msgid "Restart"
+msgstr "再起動"
+
+#: package/contents/ui/FullRepresentation.qml:161
+msgid "Shut Down…"
+msgstr "システム終了…"
+
+#: package/contents/ui/FullRepresentation.qml:163
+msgid "Shut down the computer?"
+msgstr "コンピュータをシステム終了しますか？"
+
+#: package/contents/ui/FullRepresentation.qml:164
+msgid "Shut Down"
+msgstr "システム終了"
+
+#: package/contents/ui/FullRepresentation.qml:172
+msgid "Lock Screen"
+msgstr "画面をロック"
+
+#: package/contents/ui/FullRepresentation.qml:178
+msgid "Log Out…"
+msgstr "ログアウト…"
+
+#: package/contents/ui/FullRepresentation.qml:179
+msgid "Log out?"
+msgstr "ログアウトしますか？"
+
+#: package/contents/ui/FullRepresentation.qml:180
+msgid "Log Out"
+msgstr "ログアウト"
+
+#: package/contents/ui/components/ConfirmOverlay.qml:130
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: package/contents/ui/main.qml:52
+msgid "Could not perform this action (the Plasma session API is unavailable or failed)."
+msgstr "この操作を実行できませんでした（Plasma のセッション API が利用できないか、失敗しました）。"
+
+#: package/contents/ui/main.qml:79
+msgid "Unavailable on this computer"
+msgstr "このコンピュータでは利用できません"
+
+#: package/contents/ui/main.qml:182
+msgid "%1 day"
+msgid_plural "%1 days"
+msgstr[0] "%1 日"
+
+#: package/contents/ui/main.qml:183
+msgid "%1 hour"
+msgid_plural "%1 hours"
+msgstr[0] "%1 時間"
+
+#: package/contents/ui/main.qml:184
+msgid "%1 minute"
+msgid_plural "%1 minutes"
+msgstr[0] "%1 分"
+
+#: package/contents/ui/main.qml:185
+msgid "less than a minute"
+msgstr "1 分未満"
+
+#: package/contents/ui/main.qml:192
+msgid "System"
+msgstr "システム"
+
+#: package/contents/ui/main.qml:193
+msgid "Plasma"
+msgstr "Plasma"
+
+#: package/contents/ui/main.qml:194
+msgid "Kernel"
+msgstr "カーネル"
+
+#: package/contents/ui/main.qml:200
+msgid "Model"
+msgstr "モデル"
+
+#: package/contents/ui/main.qml:200
+msgid "Unidentified"
+msgstr "不明"
+
+#: package/contents/ui/main.qml:205
+msgid "%1 core"
+msgid_plural "%1 cores"
+msgstr[0] "%1 コア"
+
+#: package/contents/ui/main.qml:206
+msgid "%1 thread"
+msgid_plural "%1 threads"
+msgstr[0] "%1 スレッド"
+
+#: package/contents/ui/main.qml:207
+msgid "Processor"
+msgstr "プロセッサ"
+
+#: package/contents/ui/main.qml:209
+msgid "Memory"
+msgstr "メモリ"
+
+#: package/contents/ui/main.qml:209
+msgid "%1 GB"
+msgstr "%1 GB"
+
+#: package/contents/ui/main.qml:210
+msgid "Graphics"
+msgstr "グラフィックス"
+
+#: package/contents/ui/main.qml:211
+msgid "Storage"
+msgstr "ストレージ"
+
+#: package/contents/ui/main.qml:211
+msgid "%1 used of %2"
+msgstr "%2 中 %1 使用"
+
+#: package/contents/ui/main.qml:212
+msgid "Computer Name"
+msgstr "コンピュータ名"
+
+#: package/contents/ui/main.qml:213
+msgid "Uptime"
+msgstr "稼働時間"
+

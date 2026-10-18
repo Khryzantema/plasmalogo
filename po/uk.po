@@ -1,0 +1,224 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: org.exemplo.menumaca\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: package/contents/config/config.qml:12
+msgid "General"
+msgstr "Загальне"
+
+#: package/contents/ui/AboutContent.qml:38 package/contents/ui/AboutContent.qml:80 package/contents/ui/FullRepresentation.qml:95
+msgid "About This Computer"
+msgstr "Про цей комп’ютер"
+
+#: package/contents/ui/AboutContent.qml:45
+msgid "Close"
+msgstr "Закрити"
+
+#: package/contents/ui/AboutContent.qml:140
+msgid "More Information…"
+msgstr "Докладніше…"
+
+#: package/contents/ui/ConfigGeneral.qml:23
+msgid "Panel icon:"
+msgstr "Піктограма на панелі:"
+
+#: package/contents/ui/ConfigGeneral.qml:28
+msgid "Choose Icon…"
+msgstr "Вибрати піктограму…"
+
+#: package/contents/ui/ConfigGeneral.qml:33
+msgid "Default"
+msgstr "Типова"
+
+#: package/contents/ui/ConfigGeneral.qml:46
+msgid "Icon size:"
+msgstr "Розмір піктограми:"
+
+#: package/contents/ui/ConfigGeneral.qml:67
+msgid "%1 px"
+msgstr "%1 пк"
+
+#: package/contents/ui/ConfigGeneral.qml:74
+msgid "Unavailable actions:"
+msgstr "Недоступні дії:"
+
+#: package/contents/ui/ConfigGeneral.qml:75
+msgid "Hide them instead of showing them disabled"
+msgstr "Приховувати, а не показувати вимкненими"
+
+#: package/contents/ui/ConfigGeneral.qml:82
+msgid "Items such as Hibernate or Sleep only appear if the computer actually supports the action."
+msgstr "Такі пункти, як «Гібернація» чи «Сон», з’являються лише якщо комп’ютер справді підтримує цю дію."
+
+#: package/contents/ui/FullRepresentation.qml:104
+msgid "System Settings…"
+msgstr "Системні параметри…"
+
+#: package/contents/ui/FullRepresentation.qml:110
+msgid "App Store…"
+msgstr "Крамниця програм…"
+
+#: package/contents/ui/FullRepresentation.qml:119
+msgid "Force Quit…"
+msgstr "Примусово завершити…"
+
+#: package/contents/ui/FullRepresentation.qml:130
+msgid "Sleep"
+msgstr "Сон"
+
+#: package/contents/ui/FullRepresentation.qml:139
+msgid "Hibernate"
+msgstr "Гібернація"
+
+#: package/contents/ui/FullRepresentation.qml:151
+msgid "Restart…"
+msgstr "Перезапустити…"
+
+#: package/contents/ui/FullRepresentation.qml:153
+msgid "Restart the computer?"
+msgstr "Перезапустити комп’ютер?"
+
+#: package/contents/ui/FullRepresentation.qml:153 package/contents/ui/FullRepresentation.qml:163 package/contents/ui/FullRepresentation.qml:179
+msgid "All open applications will be closed."
+msgstr "Усі відкриті програми буде закрито."
+
+#: package/contents/ui/FullRepresentation.qml:154
+msgid "Restart"
+msgstr "Перезапустити"
+
+#: package/contents/ui/FullRepresentation.qml:161
+msgid "Shut Down…"
+msgstr "Вимкнути…"
+
+#: package/contents/ui/FullRepresentation.qml:163
+msgid "Shut down the computer?"
+msgstr "Вимкнути комп’ютер?"
+
+#: package/contents/ui/FullRepresentation.qml:164
+msgid "Shut Down"
+msgstr "Вимкнути"
+
+#: package/contents/ui/FullRepresentation.qml:172
+msgid "Lock Screen"
+msgstr "Заблокувати екран"
+
+#: package/contents/ui/FullRepresentation.qml:178
+msgid "Log Out…"
+msgstr "Вийти…"
+
+#: package/contents/ui/FullRepresentation.qml:179
+msgid "Log out?"
+msgstr "Завершити сеанс?"
+
+#: package/contents/ui/FullRepresentation.qml:180
+msgid "Log Out"
+msgstr "Вийти"
+
+#: package/contents/ui/components/ConfirmOverlay.qml:130
+msgid "Cancel"
+msgstr "Скасувати"
+
+#: package/contents/ui/main.qml:52
+msgid "Could not perform this action (the Plasma session API is unavailable or failed)."
+msgstr "Не вдалося виконати дію (API сеансу Plasma недоступний або сталася помилка)."
+
+#: package/contents/ui/main.qml:79
+msgid "Unavailable on this computer"
+msgstr "Недоступно на цьому комп’ютері"
+
+#: package/contents/ui/main.qml:182
+msgid "%1 day"
+msgid_plural "%1 days"
+msgstr[0] "%1 день"
+msgstr[1] "%1 дні"
+msgstr[2] "%1 днів"
+
+#: package/contents/ui/main.qml:183
+msgid "%1 hour"
+msgid_plural "%1 hours"
+msgstr[0] "%1 година"
+msgstr[1] "%1 години"
+msgstr[2] "%1 годин"
+
+#: package/contents/ui/main.qml:184
+msgid "%1 minute"
+msgid_plural "%1 minutes"
+msgstr[0] "%1 хвилина"
+msgstr[1] "%1 хвилини"
+msgstr[2] "%1 хвилин"
+
+#: package/contents/ui/main.qml:185
+msgid "less than a minute"
+msgstr "менше хвилини"
+
+#: package/contents/ui/main.qml:192
+msgid "System"
+msgstr "Система"
+
+#: package/contents/ui/main.qml:193
+msgid "Plasma"
+msgstr "Plasma"
+
+#: package/contents/ui/main.qml:194
+msgid "Kernel"
+msgstr "Ядро"
+
+#: package/contents/ui/main.qml:200
+msgid "Model"
+msgstr "Модель"
+
+#: package/contents/ui/main.qml:200
+msgid "Unidentified"
+msgstr "Не визначено"
+
+#: package/contents/ui/main.qml:205
+msgid "%1 core"
+msgid_plural "%1 cores"
+msgstr[0] "%1 ядро"
+msgstr[1] "%1 ядра"
+msgstr[2] "%1 ядер"
+
+#: package/contents/ui/main.qml:206
+msgid "%1 thread"
+msgid_plural "%1 threads"
+msgstr[0] "%1 потік"
+msgstr[1] "%1 потоки"
+msgstr[2] "%1 потоків"
+
+#: package/contents/ui/main.qml:207
+msgid "Processor"
+msgstr "Процесор"
+
+#: package/contents/ui/main.qml:209
+msgid "Memory"
+msgstr "Пам’ять"
+
+#: package/contents/ui/main.qml:209
+msgid "%1 GB"
+msgstr "%1 ГБ"
+
+#: package/contents/ui/main.qml:210
+msgid "Graphics"
+msgstr "Відеокарта"
+
+#: package/contents/ui/main.qml:211
+msgid "Storage"
+msgstr "Сховище"
+
+#: package/contents/ui/main.qml:211
+msgid "%1 used of %2"
+msgstr "Використано %1 з %2"
+
+#: package/contents/ui/main.qml:212
+msgid "Computer Name"
+msgstr "Назва комп’ютера"
+
+#: package/contents/ui/main.qml:213
+msgid "Uptime"
+msgstr "Час роботи"
+

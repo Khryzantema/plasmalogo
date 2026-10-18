@@ -1,0 +1,37 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "Khryzantema",
+                "Email": "klausdelimaluiz@proton.me"
+            }
+        ],
+        "BugReportUrl": "https://github.com/Khryzantema/plasmalogo/issues",
+        "Category": "System Information",
+        "Description": "macOS-style system menu on your distribution logo, with quick system actions and an About This Computer window.",
+        "Description[cs]": "Nabídka ve stylu nabídky Apple z macOS s rychlými systémovými akcemi a vlastním oknem „O tomto počítači“, bez KInfoCenter.",
+        "Description[de]": "Menü im Stil des macOS-Apple-Menüs mit schnellen Systemaktionen und einem eigenen Fenster „Über diesen Computer“, ohne KInfoCenter.",
+        "Description[es]": "Menú al estilo del menú Apple de macOS, con acciones rápidas del sistema y una ventana propia «Acerca de este equipo», sin KInfoCenter.",
+        "Description[fr]": "Menu inspiré du menu Pomme de macOS, avec des actions système rapides et une fenêtre « À propos de cet ordinateur », sans KInfoCenter.",
+        "Description[it]": "Menu in stile menu Apple di macOS, con azioni rapide di sistema e una finestra «Informazioni su questo computer», senza KInfoCenter.",
+        "Description[ja]": "macOS の Apple メニュー風のメニュー。システム操作にすばやくアクセスでき、KInfoCenter を使わない独自の「このコンピュータについて」ウィンドウを備えます。",
+        "Description[ko]": "macOS의 Apple 메뉴 스타일 메뉴로, 빠른 시스템 작업과 KInfoCenter 없이 동작하는 자체 '이 컴퓨터에 관하여' 창을 제공합니다.",
+        "Description[nl]": "Menu in de stijl van het Apple-menu van macOS, met snelle systeemacties en een eigen venster ‘Over deze computer’, zonder KInfoCenter.",
+        "Description[pl]": "Menu w stylu menu Apple z macOS z szybkimi działaniami systemowymi i własnym oknem „Ten komputer”, bez KInfoCenter.",
+        "Description[pt]": "Menu ao estilo do menu da maçã do macOS, com ações rápidas de sistema e uma janela própria «Acerca deste computador», sem o KInfoCenter.",
+        "Description[pt_BR]": "Botão de menu estilo 'menu da maçã' com ações rápidas de sistema e uma janela 'Sobre Este Computador' própria, sem KInfoCenter.",
+        "Description[ru]": "Меню в стиле меню Apple из macOS с быстрыми системными действиями и собственным окном «Об этом компьютере», без KInfoCenter.",
+        "Description[tr]": "macOS'taki Apple menüsünden esinlenen, hızlı sistem eylemleri ve KInfoCenter gerektirmeyen kendi 'Bu Bilgisayar Hakkında' penceresi olan menü.",
+        "Description[uk]": "Меню в стилі меню Apple з macOS зі швидкими системними діями та власним вікном «Про цей комп’ютер», без KInfoCenter.",
+        "Description[zh_CN]": "仿 macOS 苹果菜单的菜单，提供快速系统操作和独立的“关于本机”窗口，无需 KInfoCenter。",
+        "Description[zh_TW]": "仿 macOS 蘋果選單的選單，提供快速系統操作與獨立的「關於本機」視窗，不需要 KInfoCenter。",
+        "Icon": "start-here-kde",
+        "Id": "io.github.khryzantema.plasmalogo",
+        "License": "GPL-2.0-or-later",
+        "Name": "PlasmaLogo",
+        "Version": "1.0.0",
+        "Website": "https://github.com/Khryzantema/plasmalogo"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "KPackageStructure": "Plasma/Applet"
+}
