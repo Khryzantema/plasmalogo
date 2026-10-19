@@ -37,6 +37,14 @@ T.AbstractButton {
             event.accepted = true;
         }
     }
+    // Like a real menu, the pointer moves the selection: the hovered entry takes
+    // the keyboard focus (without a focus ring), so only one entry is lit and
+    // the arrow keys continue from there.
+    onHoveredChanged: {
+        if (hovered && enabled) {
+            forceActiveFocus(Qt.MouseFocusReason);
+        }
+    }
     // Up/down arrows walk through the entries, like in a real menu.
     Keys.onUpPressed: nextItemInFocusChain(false).forceActiveFocus(Qt.BacktabFocusReason)
     Keys.onDownPressed: nextItemInFocusChain(true).forceActiveFocus(Qt.TabFocusReason)

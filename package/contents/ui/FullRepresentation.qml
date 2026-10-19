@@ -47,7 +47,8 @@ PlasmaExtras.Representation {
         function onExpandedChanged() {
             if (full.plasmoidItem.expanded) {
                 full.plasmoidItem.refreshCaps();
-                Qt.callLater(() => aboutRow.forceActiveFocus(Qt.TabFocusReason));
+                // Focus for the arrow keys, without lighting the entry up (no "visual focus").
+                Qt.callLater(() => aboutRow.forceActiveFocus(Qt.OtherFocusReason));
             }
         }
     }
