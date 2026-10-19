@@ -92,6 +92,15 @@ if [ -r /proc/cpuinfo ]; then
     CPU_MODEL=$(sed -n 's/^model name[ \t]*: //p' /proc/cpuinfo | head -n1)
 fi
 
+# The model name carries the base clock ("... @ 2.30GHz"); show the maximum
+# boost clock instead, as reported by cpufreq (kHz, highest across all CPUs).
+# Without cpufreq (e.g. virtual machines) the model name is kept as is.
+CPU_MAX_KHZ=$(cat /sys/devices/system/cpu/cpu*/cpufreq/cpuinfo_max_freq 2>/dev/null | sort -n | tail -n1)
+if [ -n "$CPU_MODEL" ] && [ -n "$CPU_MAX_KHZ" ] && [ "$CPU_MAX_KHZ" -gt 0 ] 2>/dev/null; then
+    CPU_MAX_GHZ=$(LC_ALL=C awk -v khz="$CPU_MAX_KHZ" 'BEGIN { printf "%.2fGHz", khz / 1000000 }')
+    CPU_MODEL="$(printf '%s' "$CPU_MODEL" | sed 's/[[:space:]]*@[[:space:]]*[0-9.]*[[:space:]]*[GM]Hz[[:space:]]*$//') @ $CPU_MAX_GHZ"
+fi
+
 CPU_THREADS=""
 if command -v nproc >/dev/null 2>&1; then
     CPU_THREADS=$(nproc 2>/dev/null)
