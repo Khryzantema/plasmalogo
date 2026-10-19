@@ -6,7 +6,7 @@ msgstr ""
 msgid "General"
 msgstr ""
 
-#: package/contents/ui/AboutContent.qml:38 package/contents/ui/AboutContent.qml:80 package/contents/ui/FullRepresentation.qml:95
+#: package/contents/ui/AboutContent.qml:38 package/contents/ui/AboutContent.qml:80 package/contents/ui/FullRepresentation.qml:81
 msgid "About This Computer"
 msgstr ""
 
@@ -50,72 +50,40 @@ msgstr ""
 msgid "Items such as Hibernate or Sleep only appear if the computer actually supports the action."
 msgstr ""
 
-#: package/contents/ui/FullRepresentation.qml:104
+#: package/contents/ui/FullRepresentation.qml:90
 msgid "System Settings…"
 msgstr ""
 
-#: package/contents/ui/FullRepresentation.qml:110
+#: package/contents/ui/FullRepresentation.qml:96
 msgid "App Store…"
 msgstr ""
 
-#: package/contents/ui/FullRepresentation.qml:119
+#: package/contents/ui/FullRepresentation.qml:105
 msgid "Force Quit…"
 msgstr ""
 
-#: package/contents/ui/FullRepresentation.qml:130
+#: package/contents/ui/FullRepresentation.qml:116
 msgid "Sleep"
 msgstr ""
 
-#: package/contents/ui/FullRepresentation.qml:139
+#: package/contents/ui/FullRepresentation.qml:125
 msgid "Hibernate"
 msgstr ""
 
-#: package/contents/ui/FullRepresentation.qml:151
+#: package/contents/ui/FullRepresentation.qml:137
 msgid "Restart…"
 msgstr ""
 
-#: package/contents/ui/FullRepresentation.qml:153
-msgid "Restart the computer?"
-msgstr ""
-
-#: package/contents/ui/FullRepresentation.qml:153 package/contents/ui/FullRepresentation.qml:163 package/contents/ui/FullRepresentation.qml:179
-msgid "All open applications will be closed."
-msgstr ""
-
-#: package/contents/ui/FullRepresentation.qml:154
-msgid "Restart"
-msgstr ""
-
-#: package/contents/ui/FullRepresentation.qml:161
+#: package/contents/ui/FullRepresentation.qml:147
 msgid "Shut Down…"
 msgstr ""
 
-#: package/contents/ui/FullRepresentation.qml:163
-msgid "Shut down the computer?"
-msgstr ""
-
-#: package/contents/ui/FullRepresentation.qml:164
-msgid "Shut Down"
-msgstr ""
-
-#: package/contents/ui/FullRepresentation.qml:172
+#: package/contents/ui/FullRepresentation.qml:157
 msgid "Lock Screen"
 msgstr ""
 
-#: package/contents/ui/FullRepresentation.qml:178
+#: package/contents/ui/FullRepresentation.qml:163
 msgid "Log Out…"
-msgstr ""
-
-#: package/contents/ui/FullRepresentation.qml:179
-msgid "Log out?"
-msgstr ""
-
-#: package/contents/ui/FullRepresentation.qml:180
-msgid "Log Out"
-msgstr ""
-
-#: package/contents/ui/components/ConfirmOverlay.qml:130
-msgid "Cancel"
 msgstr ""
 
 #: package/contents/ui/main.qml:52

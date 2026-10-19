@@ -26,8 +26,8 @@ Written in plain QML (no compiled plugin).
   memory, graphics, storage, computer name and uptime, plus a
   "More Information…" button that opens KInfoCenter. Closes with Esc, the
   close button or a click outside.
-- Restart, Shut Down and Log Out ask for confirmation in a card inside the
-  popup.
+- Restart, Shut Down and Log Out go straight to Plasma, which asks for
+  confirmation according to your logout settings.
 - Actions the computer does not support (e.g. Hibernate without a swap setup)
   are hidden, or shown disabled if you prefer (widget settings).
 - Force Quit uses KWin's "Kill Window" picker on Wayland and `xkill` on X11.
@@ -99,8 +99,6 @@ shows a notification when an action cannot run.
 
 ## Known limitations
 
-- Restart, Shut Down and Log Out may ask twice if Plasma's own "confirm logout"
-  setting is enabled (once in the menu, once in Plasma's logout screen).
 - Force Quit relies on an internal KWin shortcut name ("Kill Window"), which may
   change between KWin versions.
 

@@ -11,7 +11,7 @@ msgstr ""
 msgid "General"
 msgstr "Загальне"
 
-#: package/contents/ui/AboutContent.qml:38 package/contents/ui/AboutContent.qml:80 package/contents/ui/FullRepresentation.qml:95
+#: package/contents/ui/AboutContent.qml:38 package/contents/ui/AboutContent.qml:80 package/contents/ui/FullRepresentation.qml:81
 msgid "About This Computer"
 msgstr "Про цей комп’ютер"
 
@@ -55,73 +55,41 @@ msgstr "Приховувати, а не показувати вимкненим�
 msgid "Items such as Hibernate or Sleep only appear if the computer actually supports the action."
 msgstr "Такі пункти, як «Гібернація» чи «Сон», з’являються лише якщо комп’ютер справді підтримує цю дію."
 
-#: package/contents/ui/FullRepresentation.qml:104
+#: package/contents/ui/FullRepresentation.qml:90
 msgid "System Settings…"
 msgstr "Системні параметри…"
 
-#: package/contents/ui/FullRepresentation.qml:110
+#: package/contents/ui/FullRepresentation.qml:96
 msgid "App Store…"
 msgstr "Крамниця програм…"
 
-#: package/contents/ui/FullRepresentation.qml:119
+#: package/contents/ui/FullRepresentation.qml:105
 msgid "Force Quit…"
 msgstr "Примусово завершити…"
 
-#: package/contents/ui/FullRepresentation.qml:130
+#: package/contents/ui/FullRepresentation.qml:116
 msgid "Sleep"
 msgstr "Сон"
 
-#: package/contents/ui/FullRepresentation.qml:139
+#: package/contents/ui/FullRepresentation.qml:125
 msgid "Hibernate"
 msgstr "Гібернація"
 
-#: package/contents/ui/FullRepresentation.qml:151
+#: package/contents/ui/FullRepresentation.qml:137
 msgid "Restart…"
 msgstr "Перезапустити…"
 
-#: package/contents/ui/FullRepresentation.qml:153
-msgid "Restart the computer?"
-msgstr "Перезапустити комп’ютер?"
-
-#: package/contents/ui/FullRepresentation.qml:153 package/contents/ui/FullRepresentation.qml:163 package/contents/ui/FullRepresentation.qml:179
-msgid "All open applications will be closed."
-msgstr "Усі відкриті програми буде закрито."
-
-#: package/contents/ui/FullRepresentation.qml:154
-msgid "Restart"
-msgstr "Перезапустити"
-
-#: package/contents/ui/FullRepresentation.qml:161
+#: package/contents/ui/FullRepresentation.qml:147
 msgid "Shut Down…"
 msgstr "Вимкнути…"
 
-#: package/contents/ui/FullRepresentation.qml:163
-msgid "Shut down the computer?"
-msgstr "Вимкнути комп’ютер?"
-
-#: package/contents/ui/FullRepresentation.qml:164
-msgid "Shut Down"
-msgstr "Вимкнути"
-
-#: package/contents/ui/FullRepresentation.qml:172
+#: package/contents/ui/FullRepresentation.qml:157
 msgid "Lock Screen"
 msgstr "Заблокувати екран"
 
-#: package/contents/ui/FullRepresentation.qml:178
+#: package/contents/ui/FullRepresentation.qml:163
 msgid "Log Out…"
 msgstr "Вийти…"
-
-#: package/contents/ui/FullRepresentation.qml:179
-msgid "Log out?"
-msgstr "Завершити сеанс?"
-
-#: package/contents/ui/FullRepresentation.qml:180
-msgid "Log Out"
-msgstr "Вийти"
-
-#: package/contents/ui/components/ConfirmOverlay.qml:130
-msgid "Cancel"
-msgstr "Скасувати"
 
 #: package/contents/ui/main.qml:52
 msgid "Could not perform this action (the Plasma session API is unavailable or failed)."

@@ -11,7 +11,7 @@ msgstr ""
 msgid "General"
 msgstr "Ogólne"
 
-#: package/contents/ui/AboutContent.qml:38 package/contents/ui/AboutContent.qml:80 package/contents/ui/FullRepresentation.qml:95
+#: package/contents/ui/AboutContent.qml:38 package/contents/ui/AboutContent.qml:80 package/contents/ui/FullRepresentation.qml:81
 msgid "About This Computer"
 msgstr "Ten komputer"
 
@@ -55,73 +55,41 @@ msgstr "Ukrywaj zamiast pokazywać jako wyłączone"
 msgid "Items such as Hibernate or Sleep only appear if the computer actually supports the action."
 msgstr "Pozycje takie jak Hibernacja czy Uśpienie pojawiają się tylko wtedy, gdy komputer naprawdę obsługuje to działanie."
 
-#: package/contents/ui/FullRepresentation.qml:104
+#: package/contents/ui/FullRepresentation.qml:90
 msgid "System Settings…"
 msgstr "Ustawienia systemowe…"
 
-#: package/contents/ui/FullRepresentation.qml:110
+#: package/contents/ui/FullRepresentation.qml:96
 msgid "App Store…"
 msgstr "Sklep z aplikacjami…"
 
-#: package/contents/ui/FullRepresentation.qml:119
+#: package/contents/ui/FullRepresentation.qml:105
 msgid "Force Quit…"
 msgstr "Wymuś zakończenie…"
 
-#: package/contents/ui/FullRepresentation.qml:130
+#: package/contents/ui/FullRepresentation.qml:116
 msgid "Sleep"
 msgstr "Uśpij"
 
-#: package/contents/ui/FullRepresentation.qml:139
+#: package/contents/ui/FullRepresentation.qml:125
 msgid "Hibernate"
 msgstr "Hibernuj"
 
-#: package/contents/ui/FullRepresentation.qml:151
+#: package/contents/ui/FullRepresentation.qml:137
 msgid "Restart…"
 msgstr "Uruchom ponownie…"
 
-#: package/contents/ui/FullRepresentation.qml:153
-msgid "Restart the computer?"
-msgstr "Uruchomić ponownie komputer?"
-
-#: package/contents/ui/FullRepresentation.qml:153 package/contents/ui/FullRepresentation.qml:163 package/contents/ui/FullRepresentation.qml:179
-msgid "All open applications will be closed."
-msgstr "Wszystkie otwarte aplikacje zostaną zamknięte."
-
-#: package/contents/ui/FullRepresentation.qml:154
-msgid "Restart"
-msgstr "Uruchom ponownie"
-
-#: package/contents/ui/FullRepresentation.qml:161
+#: package/contents/ui/FullRepresentation.qml:147
 msgid "Shut Down…"
 msgstr "Wyłącz…"
 
-#: package/contents/ui/FullRepresentation.qml:163
-msgid "Shut down the computer?"
-msgstr "Wyłączyć komputer?"
-
-#: package/contents/ui/FullRepresentation.qml:164
-msgid "Shut Down"
-msgstr "Wyłącz"
-
-#: package/contents/ui/FullRepresentation.qml:172
+#: package/contents/ui/FullRepresentation.qml:157
 msgid "Lock Screen"
 msgstr "Zablokuj ekran"
 
-#: package/contents/ui/FullRepresentation.qml:178
+#: package/contents/ui/FullRepresentation.qml:163
 msgid "Log Out…"
 msgstr "Wyloguj…"
-
-#: package/contents/ui/FullRepresentation.qml:179
-msgid "Log out?"
-msgstr "Wylogować się?"
-
-#: package/contents/ui/FullRepresentation.qml:180
-msgid "Log Out"
-msgstr "Wyloguj"
-
-#: package/contents/ui/components/ConfirmOverlay.qml:130
-msgid "Cancel"
-msgstr "Anuluj"
 
 #: package/contents/ui/main.qml:52
 msgid "Could not perform this action (the Plasma session API is unavailable or failed)."

@@ -16,7 +16,6 @@ PlasmaExtras.Representation {
     id: full
 
     required property PlasmoidItem plasmoidItem
-    readonly property alias confirmOverlay: confirm
 
     // Sized like a menu: the longest entry (icon + text + margins) plus 10%,
     // so it follows the language in use. The size never changes while open:
@@ -41,13 +40,7 @@ PlasmaExtras.Representation {
         action();
     }
 
-    Keys.onEscapePressed: {
-        if (confirm.open) {
-            confirm.open = false;
-        } else {
-            plasmoidItem.expanded = false;
-        }
-    }
+    Keys.onEscapePressed: plasmoidItem.expanded = false
 
     Connections {
         target: full.plasmoidItem
@@ -55,8 +48,6 @@ PlasmaExtras.Representation {
             if (full.plasmoidItem.expanded) {
                 full.plasmoidItem.refreshCaps();
                 Qt.callLater(() => aboutRow.forceActiveFocus(Qt.TabFocusReason));
-            } else {
-                confirm.open = false;
             }
         }
     }
@@ -67,11 +58,6 @@ PlasmaExtras.Representation {
         Layout.bottomMargin: Kirigami.Units.smallSpacing
         Layout.leftMargin: Kirigami.Units.smallSpacing
         Layout.rightMargin: Kirigami.Units.smallSpacing
-    }
-
-    ConfirmOverlay {
-        id: confirm
-        anchors.margins: Kirigami.Units.largeSpacing
     }
 
     Item {
@@ -150,8 +136,8 @@ PlasmaExtras.Representation {
                 iconName: "system-reboot"
                 text: i18n("Restart…")
                 hint: full.plasmoidItem.itemHint(full.plasmoidItem.rebootOk)
-                onClicked: confirm.ask(i18n("Restart the computer?"), i18n("All open applications will be closed."),
-                    "system-reboot", i18n("Restart"), () => full.run(() => full.plasmoidItem.sessionCall("requestReboot")))
+                // Plasma asks for confirmation itself (per the user's logout settings).
+                onClicked: full.run(() => full.plasmoidItem.sessionCall("requestReboot"))
             }
             MenuRow {
                 Layout.fillWidth: true
@@ -160,8 +146,7 @@ PlasmaExtras.Representation {
                 iconName: "system-shutdown"
                 text: i18n("Shut Down…")
                 hint: full.plasmoidItem.itemHint(full.plasmoidItem.shutdownOk)
-                onClicked: confirm.ask(i18n("Shut down the computer?"), i18n("All open applications will be closed."),
-                    "system-shutdown", i18n("Shut Down"), () => full.run(() => full.plasmoidItem.sessionCall("requestShutdown")))
+                onClicked: full.run(() => full.plasmoidItem.sessionCall("requestShutdown"))
             }
 
             MenuSeparator {}
@@ -176,8 +161,7 @@ PlasmaExtras.Representation {
                 Layout.fillWidth: true
                 iconName: "system-log-out"
                 text: i18n("Log Out…")
-                onClicked: confirm.ask(i18n("Log out?"), i18n("All open applications will be closed."),
-                    "system-log-out", i18n("Log Out"), () => full.run(() => full.plasmoidItem.sessionCall("requestLogout")))
+                onClicked: full.run(() => full.plasmoidItem.sessionCall("requestLogout"))
             }
         }
     }

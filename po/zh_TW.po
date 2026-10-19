@@ -11,7 +11,7 @@ msgstr ""
 msgid "General"
 msgstr "一般"
 
-#: package/contents/ui/AboutContent.qml:38 package/contents/ui/AboutContent.qml:80 package/contents/ui/FullRepresentation.qml:95
+#: package/contents/ui/AboutContent.qml:38 package/contents/ui/AboutContent.qml:80 package/contents/ui/FullRepresentation.qml:81
 msgid "About This Computer"
 msgstr "關於本機"
 
@@ -55,73 +55,41 @@ msgstr "隱藏而非顯示為停用"
 msgid "Items such as Hibernate or Sleep only appear if the computer actually supports the action."
 msgstr "只有在電腦確實支援時，才會顯示「休眠」或「睡眠」等項目。"
 
-#: package/contents/ui/FullRepresentation.qml:104
+#: package/contents/ui/FullRepresentation.qml:90
 msgid "System Settings…"
 msgstr "系統設定…"
 
-#: package/contents/ui/FullRepresentation.qml:110
+#: package/contents/ui/FullRepresentation.qml:96
 msgid "App Store…"
 msgstr "應用程式商店…"
 
-#: package/contents/ui/FullRepresentation.qml:119
+#: package/contents/ui/FullRepresentation.qml:105
 msgid "Force Quit…"
 msgstr "強制結束…"
 
-#: package/contents/ui/FullRepresentation.qml:130
+#: package/contents/ui/FullRepresentation.qml:116
 msgid "Sleep"
 msgstr "睡眠"
 
-#: package/contents/ui/FullRepresentation.qml:139
+#: package/contents/ui/FullRepresentation.qml:125
 msgid "Hibernate"
 msgstr "休眠"
 
-#: package/contents/ui/FullRepresentation.qml:151
+#: package/contents/ui/FullRepresentation.qml:137
 msgid "Restart…"
 msgstr "重新開機…"
 
-#: package/contents/ui/FullRepresentation.qml:153
-msgid "Restart the computer?"
-msgstr "要重新開機嗎？"
-
-#: package/contents/ui/FullRepresentation.qml:153 package/contents/ui/FullRepresentation.qml:163 package/contents/ui/FullRepresentation.qml:179
-msgid "All open applications will be closed."
-msgstr "所有開啟的應用程式都將關閉。"
-
-#: package/contents/ui/FullRepresentation.qml:154
-msgid "Restart"
-msgstr "重新開機"
-
-#: package/contents/ui/FullRepresentation.qml:161
+#: package/contents/ui/FullRepresentation.qml:147
 msgid "Shut Down…"
 msgstr "關機…"
 
-#: package/contents/ui/FullRepresentation.qml:163
-msgid "Shut down the computer?"
-msgstr "要將電腦關機嗎？"
-
-#: package/contents/ui/FullRepresentation.qml:164
-msgid "Shut Down"
-msgstr "關機"
-
-#: package/contents/ui/FullRepresentation.qml:172
+#: package/contents/ui/FullRepresentation.qml:157
 msgid "Lock Screen"
 msgstr "鎖定螢幕"
 
-#: package/contents/ui/FullRepresentation.qml:178
+#: package/contents/ui/FullRepresentation.qml:163
 msgid "Log Out…"
 msgstr "登出…"
-
-#: package/contents/ui/FullRepresentation.qml:179
-msgid "Log out?"
-msgstr "要登出嗎？"
-
-#: package/contents/ui/FullRepresentation.qml:180
-msgid "Log Out"
-msgstr "登出"
-
-#: package/contents/ui/components/ConfirmOverlay.qml:130
-msgid "Cancel"
-msgstr "取消"
 
 #: package/contents/ui/main.qml:52
 msgid "Could not perform this action (the Plasma session API is unavailable or failed)."
