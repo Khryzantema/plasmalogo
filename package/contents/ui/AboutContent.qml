@@ -136,7 +136,8 @@ FocusScope {
                     PlasmaComponents3.Button {
                         Layout.alignment: Qt.AlignHCenter
                         Layout.bottomMargin: Kirigami.Units.largeSpacing
-                        icon.name: "kinfocenter"
+                        // Icon names from the apps' own .desktop files, present in Breeze too.
+                        icon.name: "hwinfo"
                         text: i18n("More Information…")
                         onClicked: page.moreInfoRequested()
                     }

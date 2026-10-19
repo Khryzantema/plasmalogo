@@ -93,7 +93,7 @@ PlasmaExtras.Representation {
             }
             MenuRow {
                 Layout.fillWidth: true
-                iconName: "plasma-discover"
+                iconName: "plasmadiscover"
                 text: i18n("App Store…")
                 onClicked: full.run(() => full.plasmoidItem.launch("plasma-discover"))
             }
