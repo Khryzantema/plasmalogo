@@ -7,6 +7,12 @@ one click away).
 
 Written in plain QML (no compiled plugin).
 
+## Screenshots
+
+| Menu | About This Computer |
+|:---:|:---:|
+| ![The PlasmaLogo menu](docs/screenshots/menu.png) | ![The About This Computer window](docs/screenshots/about.png) |
+
 ## Features
 
 - Menu with the classic layout, grouped by separators:
