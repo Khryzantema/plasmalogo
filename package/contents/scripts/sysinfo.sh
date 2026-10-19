@@ -66,9 +66,20 @@ fi
 
 KERNEL=$(uname -r 2>/dev/null)
 
+# Plasma version from the metainfo file plasma-workspace installs (newest release
+# first). Running "plasmashell --version" instead starts the whole shell binary,
+# which is slow and crashes outside a graphical session.
 PLASMA_VERSION=""
-if command -v plasmashell >/dev/null 2>&1; then
-    PLASMA_VERSION=$(plasmashell --version 2>/dev/null | sed -n 's/^plasmashell \([0-9.]*\).*/\1/p')
+for METAINFO in /usr/share/metainfo/org.kde.plasmashell.metainfo.xml \
+                /usr/local/share/metainfo/org.kde.plasmashell.metainfo.xml; do
+    if [ -r "$METAINFO" ]; then
+        PLASMA_VERSION=$(sed -n 's/.*<release version="\([0-9.]*\)".*/\1/p' "$METAINFO" | head -n 1)
+        break
+    fi
+done
+if [ -z "$PLASMA_VERSION" ] && [ -n "${WAYLAND_DISPLAY:-}${DISPLAY:-}" ] \
+    && [ "${QT_QPA_PLATFORM:-}" != "offscreen" ] && command -v plasmashell >/dev/null 2>&1; then
+    PLASMA_VERSION=$(timeout 5 plasmashell --version 2>/dev/null | sed -n 's/^plasmashell \([0-9.]*\).*/\1/p')
 fi
 
 SYS_VENDOR=""

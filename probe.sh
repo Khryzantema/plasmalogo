@@ -41,6 +41,9 @@ else
     kpackagetool6 --type Plasma/Applet --install "$WORK/pkg" >/dev/null
 fi
 
+# plasmawindowed ignores Qt.quit(), so the run ends with "timeout"; do not leave
+# a core dump (and a DrKonqi crash report) behind every time.
+ulimit -c 0
 QML_DISABLE_DISK_CACHE=1 QT_FORCE_STDERR_LOGGING=1 QT_LOGGING_RULES="js.debug=true;qml.debug=true" \
     QT_QPA_PLATFORM=${PROBE_PLATFORM:-offscreen} timeout "$SECONDS_TO_RUN" plasmawindowed "$PROBE_ID" > "$WORK/log.txt" 2>&1 || true
 kpackagetool6 --type Plasma/Applet --remove "$PROBE_ID" >/dev/null
